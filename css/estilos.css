@@ -75,8 +75,15 @@ body{
 }
 
 .contenedor article{
+    border: solid #e0e0e0;
+    border-radius: 5px;
     margin: 1rem;
     padding: 1rem;
+    transition: background 1s;
+}
+
+.contenedor article:hover{
+    background-color: #e0e0e0;
 }
 
 .contenedorven{
@@ -93,9 +100,15 @@ body{
 }
 
 .contenedorven article{
+    border: solid #e0e0e0;
+    border-radius: 5px;
     margin: 5px;
     padding: 5px;
-   
+    transition: background 1s;
+}
+
+.contenedorven article:hover{
+    background: #e0e0e0;
 }
 
 .contenedorven h5{
