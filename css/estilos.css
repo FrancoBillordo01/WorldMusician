@@ -134,17 +134,7 @@ body{
     background-color: #F0EAE9;
 }
 
-.nosotrosv{text-align: center;
-    padding: 10px;
-    margin: 20px;
-    margin-top: 70px;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    justify-items: center;
-}
+
 
 form {
     width: 400px;
@@ -181,10 +171,7 @@ footer{
     padding: 1rem;
 }
 
-.fscontedor{
-    display: flex;
-    flex-direction: row;
-}
+
 
 /*MEDIAS*/
 @media screen and (max-width: 480px) {
@@ -327,5 +314,4 @@ footer{
         color: white;
         margin-bottom: 10px;
     }
-    
 }
